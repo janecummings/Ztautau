@@ -1,0 +1,58 @@
+<!--
+This xml file created automatically on: 
+2016-2-11
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="SR_SS_muhad" InputFile="" >
+
+    <Data HistoName="h_upsilon_Muons_SR_SS" InputFile="data/mu_regions.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.01" ConstraintType="Poisson" /> 
+
+    <Sample Name="LH_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_LH_Ztautau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="mu_trig"  High="1.01767"  Low="0.982333"   /> 
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_LH"  Val="0.5"  High="1"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="RH_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_RH_Ztautau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="mu_trig"  High="1.01791"  Low="0.982086"   /> 
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_RH"  Val="0.5"  High="1"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="WData_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_WData_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="False" >
+      <OverallSys Name="mu_trig"  High="1.00157"  Low="0.998431"   /> 
+      <NormFactor Name="kW_SS_muhad"  Val="1"  High="2"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="Zlljet_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_Zlljet_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="mu_trig"  High="1.01752"  Low="0.982477"   /> 
+    </Sample>
+
+
+    <Sample Name="Zltau_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_Zltau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+    </Sample>
+
+
+    <Sample Name="tt_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_ttBar_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <StatError Activate="True"  InputFile=""  HistoName=""  HistoPath=""  /> 
+      <OverallSys Name="mu_trig"  High="1.01811"  Low="0.981893"   /> 
+    </Sample>
+
+
+    <Sample Name="QCD_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_QCD_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="False" >
+      <ShapeFactor Name="QCDSHAPE_muhad"   /> 
+    </Sample>
+
+
+
+  </Channel>  

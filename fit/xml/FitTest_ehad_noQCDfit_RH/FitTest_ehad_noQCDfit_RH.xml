@@ -1,0 +1,23 @@
+<!--
+This xml file created automatically on: 
+2016-2-15
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="" >
+
+<Function Name="Ptau_LH" Expression="0.500 * (1-Ptau)" Dependents="Ptau[-2.000000,2.000000]" />
+<Function Name="Ptau_RH" Expression="0.500 * (1+Ptau)" Dependents="Ptau[-2.000000,2.000000]" />
+
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_SR_OS_ehad.xml</Input>
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_SR_SS_ehad.xml</Input>
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_WCR_OS_ehad.xml</Input>
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_WCR_SS_ehad.xml</Input>
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_QCD_OS_ehad.xml</Input>
+  <Input>./xml/FitTest_ehad_noQCDfit_RH/FitTest_ehad_noQCDfit_RH_QCD_SS_ehad.xml</Input>
+
+  <Measurement Name="FitTest_ehad_noQCDfit_RH" Lumi="1" LumiRelErr="0.028" ExportOnly="True"  >
+    <POI>Ptau</POI>  
+  </Measurement> 
+
+</Combination>

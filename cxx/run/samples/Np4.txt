@@ -1,0 +1,1 @@
+/data/cummings/common/truth/user.cummings.ZtautauNp4.truth_noSpinner_ZtautauNp4.root.34645216/user.cummings.5920067._000001.ZtautauNp4.root,/data/cummings/common/truth/user.cummings.ZtautauNp4.truth_noSpinner_ZtautauNp4.root.34645216/user.cummings.5920067._000002.ZtautauNp4.root

@@ -1,0 +1,156 @@
+<!--
+This xml file created automatically on: 
+2016-2-15
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="SR_SS_muhad" InputFile="" >
+
+    <Data HistoName="h_upsilon_Muons_SR_SS" InputFile="data/mu_regions.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.01" ConstraintType="Poisson" /> 
+
+    <Sample Name="LH_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_LH_Ztautau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <OverallSys Name="mu_trig"  High="1.01767"  Low="0.982333"   /> 
+      <OverallSys Name="tau_id_sys"  High="1.0093"  Low="0.990697"   /> 
+      <OverallSys Name="tau_id_stat"  High="1.00565"  Low="0.994352"   /> 
+      <OverallSys Name="mu_id"  High="1.00288"  Low="0.997123"   /> 
+      <OverallSys Name="mu_iso"  High="1.01082"  Low="0.989175"   /> 
+      <OverallSys Name="JER"  High="0.992609"  Low="0.992609"   /> 
+      <OverallSys Name="JES_BJet"  High="0.995842"  Low="0.995842"   /> 
+      <OverallSys Name="JES_Detector1"  High="0.995842"  Low="0.993764"   /> 
+      <OverallSys Name="JES_EtaMethod"  High="0.995822"  Low="0.995075"   /> 
+      <OverallSys Name="JES_EtaModelling"  High="0.996653"  Low="0.992685"   /> 
+      <OverallSys Name="JES_FlavComp"  High="0.997929"  Low="0.988969"   /> 
+      <OverallSys Name="JES_FlavResp"  High="0.997376"  Low="0.991908"   /> 
+      <OverallSys Name="JES_Modelling1"  High="1.00435"  Low="0.98832"   /> 
+      <OverallSys Name="JES_PUMu"  High="0.997009"  Low="0.996317"   /> 
+      <OverallSys Name="JES_PUNPV"  High="1.00247"  Low="0.995242"   /> 
+      <OverallSys Name="JES_PURho"  High="1"  Low="0.991928"   /> 
+      <OverallSys Name="JES_Statistical1"  High="0.997077"  Low="0.995075"   /> 
+      <OverallSys Name="JVF"  High="0.995842"  Low="0.995842"   /> 
+      <OverallSys Name="METResSys"  High="0.996897"  Low="0.988072"   /> 
+      <OverallSys Name="METScaleSys"  High="1"  Low="0.997266"   /> 
+      <OverallSys Name="MuSys"  High="0.994995"  Low="0.9959"   /> 
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_LH"  Val="0.5"  High="1.5"  Low="-0.5"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="RH_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_RH_Ztautau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <OverallSys Name="mu_trig"  High="1.01791"  Low="0.982086"   /> 
+      <OverallSys Name="tau_id_sys"  High="1.00992"  Low="0.990082"   /> 
+      <OverallSys Name="tau_id_stat"  High="1.00611"  Low="0.993889"   /> 
+      <OverallSys Name="mu_id"  High="1.00285"  Low="0.997153"   /> 
+      <OverallSys Name="mu_iso"  High="1.01092"  Low="0.989081"   /> 
+      <OverallSys Name="JER"  High="0.983883"  Low="0.983883"   /> 
+      <OverallSys Name="JES_BJet"  High="1.00649"  Low="1.00649"   /> 
+      <OverallSys Name="JES_Detector1"  High="1.00649"  Low="1.00311"   /> 
+      <OverallSys Name="JES_EtaMethod"  High="1.00649"  Low="1.00311"   /> 
+      <OverallSys Name="JES_EtaModelling"  High="1.0134"  Low="0.986057"   /> 
+      <OverallSys Name="JES_FlavComp"  High="1.01938"  Low="0.991516"   /> 
+      <OverallSys Name="JES_FlavResp"  High="1.01938"  Low="0.996619"   /> 
+      <OverallSys Name="JES_Modelling1"  High="1.01938"  Low="0.991516"   /> 
+      <OverallSys Name="JES_PUMu"  High="1.00649"  Low="1.00344"   /> 
+      <OverallSys Name="JES_PUNPV"  High="1.00043"  Low="1.00682"   /> 
+      <OverallSys Name="JES_PURho"  High="1.01306"  Low="1"   /> 
+      <OverallSys Name="JES_Statistical1"  High="1.00649"  Low="1.00649"   /> 
+      <OverallSys Name="JVF"  High="1.00649"  Low="1.00649"   /> 
+      <OverallSys Name="METResSys"  High="0.996509"  Low="1.0036"   /> 
+      <OverallSys Name="METScaleSys"  High="1"  Low="1.00311"   /> 
+      <OverallSys Name="MuSys"  High="1.0031"  Low="1.00649"   /> 
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_RH"  Val="0.5"  High="1.5"  Low="-0.5"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="WData_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_WData_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="False" >
+      <OverallSys Name="mu_trig"  High="0.998431"  Low="1.00157"   /> 
+      <OverallSys Name="tau_id_sys"  High="0.999995"  Low="1.00001"   /> 
+      <OverallSys Name="tau_id_stat"  High="0.999997"  Low="1"   /> 
+      <OverallSys Name="tau_el"  High="1"  Low="1"   /> 
+      <OverallSys Name="tau_fake"  High="1"  Low="1"   /> 
+      <OverallSys Name="el_id"  High="1"  Low="1"   /> 
+      <OverallSys Name="el_iso"  High="1"  Low="1"   /> 
+      <OverallSys Name="mu_id"  High="0.999733"  Low="1.00027"   /> 
+      <OverallSys Name="mu_iso"  High="0.999279"  Low="1.00071"   /> 
+      <OverallSys Name="JER"  High="1.0131"  Low="1.0131"   /> 
+      <OverallSys Name="JES_BJet"  High="0.999909"  Low="0.999118"   /> 
+      <OverallSys Name="JES_Detector1"  High="1.01631"  Low="0.990424"   /> 
+      <OverallSys Name="JES_EtaMethod"  High="1.00402"  Low="0.992721"   /> 
+      <OverallSys Name="JES_EtaModelling"  High="1.02025"  Low="0.97569"   /> 
+      <OverallSys Name="JES_FlavComp"  High="1.03341"  Low="0.965619"   /> 
+      <OverallSys Name="JES_FlavResp"  High="1.02372"  Low="0.979728"   /> 
+      <OverallSys Name="JES_Modelling1"  High="1.03047"  Low="0.970774"   /> 
+      <OverallSys Name="JES_PUMu"  High="1.00002"  Low="0.996312"   /> 
+      <OverallSys Name="JES_PUNPV"  High="1.01678"  Low="0.988452"   /> 
+      <OverallSys Name="JES_PURho"  High="1.01949"  Low="0.986141"   /> 
+      <OverallSys Name="JES_Statistical1"  High="1.00119"  Low="0.993748"   /> 
+      <OverallSys Name="JVF"  High="0.999159"  Low="0.999159"   /> 
+      <OverallSys Name="METResSys"  High="0.99579"  Low="0.992316"   /> 
+      <OverallSys Name="METScaleSys"  High="1"  Low="1.00008"   /> 
+      <OverallSys Name="MuSys"  High="0.997708"  Low="0.999272"   /> 
+      <NormFactor Name="kW_SS_muhad"  Val="1"  High="2"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="Zlljet_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_Zlljet_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <OverallSys Name="mu_trig"  High="1.01752"  Low="0.982477"   /> 
+      <OverallSys Name="tau_id_sys"  High="1.00001"  Low="0.999995"   /> 
+      <OverallSys Name="tau_id_stat"  High="1"  Low="0.999997"   /> 
+      <OverallSys Name="mu_id"  High="1.00297"  Low="0.997034"   /> 
+      <OverallSys Name="mu_iso"  High="1.01105"  Low="0.988949"   /> 
+      <OverallSys Name="JER"  High="1.01571"  Low="1.01571"   /> 
+      <OverallSys Name="JES_BJet"  High="1.00286"  Low="1.00186"   /> 
+      <OverallSys Name="JES_Detector1"  High="1.00867"  Low="0.999512"   /> 
+      <OverallSys Name="JES_EtaMethod"  High="1.0048"  Low="0.99688"   /> 
+      <OverallSys Name="JES_EtaModelling"  High="1.00931"  Low="0.997002"   /> 
+      <OverallSys Name="JES_FlavComp"  High="1.01298"  Low="0.991753"   /> 
+      <OverallSys Name="JES_FlavResp"  High="1.01029"  Low="0.995945"   /> 
+      <OverallSys Name="JES_Modelling1"  High="1.01138"  Low="0.992547"   /> 
+      <OverallSys Name="JES_PUMu"  High="1.0007"  Low="1.00306"   /> 
+      <OverallSys Name="JES_PUNPV"  High="1.00234"  Low="0.999164"   /> 
+      <OverallSys Name="JES_PURho"  High="1.00662"  Low="0.996265"   /> 
+      <OverallSys Name="JES_Statistical1"  High="1.0048"  Low="0.99688"   /> 
+      <OverallSys Name="JVF"  High="1.00186"  Low="1.00186"   /> 
+      <OverallSys Name="METResSys"  High="1.0016"  Low="1.00206"   /> 
+      <OverallSys Name="METScaleSys"  High="1"  Low="0.997074"   /> 
+      <OverallSys Name="MuSys"  High="0.994653"  Low="1.00326"   /> 
+    </Sample>
+
+
+    <Sample Name="Zltau_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_Zltau_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+    </Sample>
+
+
+    <Sample Name="tt_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_ttBar_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <OverallSys Name="mu_trig"  High="1.01811"  Low="0.981893"   /> 
+      <OverallSys Name="tau_id_sys"  High="1.00053"  Low="0.999466"   /> 
+      <OverallSys Name="tau_id_stat"  High="1.00029"  Low="0.999709"   /> 
+      <OverallSys Name="mu_id"  High="1.00299"  Low="0.997006"   /> 
+      <OverallSys Name="mu_iso"  High="1.01203"  Low="0.987973"   /> 
+      <OverallSys Name="JER"  High="1.00002"  Low="1.00002"   /> 
+      <OverallSys Name="JES_BJet"  High="1.01421"  Low="1.00157"   /> 
+      <OverallSys Name="JES_Detector1"  High="1.0094"  Low="0.99762"   /> 
+      <OverallSys Name="JES_EtaMethod"  High="1.00999"  Low="0.996533"   /> 
+      <OverallSys Name="JES_EtaModelling"  High="1.01085"  Low="0.988647"   /> 
+      <OverallSys Name="JES_FlavComp"  High="1.01271"  Low="1.0025"   /> 
+      <OverallSys Name="JES_FlavResp"  High="1.00928"  Low="1.00513"   /> 
+      <OverallSys Name="JES_Modelling1"  High="1.0184"  Low="0.990255"   /> 
+      <OverallSys Name="JES_PUMu"  High="1.01064"  Low="0.995361"   /> 
+      <OverallSys Name="JES_PUNPV"  High="1.01224"  Low="0.991002"   /> 
+      <OverallSys Name="JES_PURho"  High="1.01043"  Low="0.99059"   /> 
+      <OverallSys Name="JES_Statistical1"  High="1.01103"  Low="0.998696"   /> 
+      <OverallSys Name="JVF"  High="1.00291"  Low="1.00291"   /> 
+      <OverallSys Name="METResSys"  High="1.00418"  Low="1.00951"   /> 
+      <OverallSys Name="METScaleSys"  High="1"  Low="1.00655"   /> 
+      <OverallSys Name="MuSys"  High="0.999886"  Low="1.00471"   /> 
+    </Sample>
+
+
+    <Sample Name="QCD_SR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_QCD_SR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="False" >
+    </Sample>
+
+
+
+  </Channel>  

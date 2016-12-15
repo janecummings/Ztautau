@@ -1,0 +1,43 @@
+<!--
+This xml file created automatically on: 
+2016-2-14
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="WCR_SS_muhad" InputFile="" >
+
+    <Data HistoName="h_upsilon_CR_Muons_WCR_SS" InputFile="data/mu_regions.root" HistoPath=""  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.01" ConstraintType="Poisson" /> 
+
+    <Sample Name="LH_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_LH_Ztautau_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_LH"  Val="0.5"  High="1"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="RH_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_RH_Ztautau_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+      <NormFactor Name="ZtautauNorm"  Val="1"  High="10"  Low="0"  Const="False"   /> 
+      <NormFactor Name="Ptau_RH"  Val="0.5"  High="1"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="WData_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_WData_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="False" >
+      <NormFactor Name="kW_SS_muhad"  Val="1"  High="2"  Low="0"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="Zlljet_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_Zlljet_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+    </Sample>
+
+
+    <Sample Name="Zltau_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_Zltau_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+    </Sample>
+
+
+    <Sample Name="tt_WCR_SS_muhad"  HistoPath=""  HistoName="h_upsilon_CR_ttBar_WCR_SS"  InputFile="data/mu_regions.root"  NormalizeByTheory="True" >
+    </Sample>
+
+
+
+  </Channel>  
